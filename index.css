@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: Futura demi;
+    src: url('/fonts/FuturaPTDemi.otf');
+}
+@font-face {
+    font-family: Futura heavy;
+    src: url('/fonts/FuturaPTHeavy.otf');
+}
+.navbar{
+    display: flex;
+}
+
+.logo {
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-right: 0%;
+    margin-bottom: auto;
+}
+
+.navbard {
+    color: white;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-right: 20%;
+    font-family: Futura demi;
+}
+
+.bar{
+    white-space: nowrap;
+    margin-right: 30%;
+    text-decoration: solid;
+    text-decoration-color: white;
+}
+
+a{
+    transition: all 1s;
+}
+
+a:visited {
+    text-decoration: solid;
+    color: white;
+}
+
+a:hover{
+    font-size: 150%;
+    margin-right: 17%;
+}
+
+p {
+    color: white;
+}
+
+.corps{
+    display: block;
+    font-family: Futura heavy;
+}
+
+.titre {
+    margin-left: 45%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    font-size: 50px;
+}
+
+.titre2 {
+    margin-left: 40%;
+    margin-top: 25%;
+    font-size: 45px;
+}
